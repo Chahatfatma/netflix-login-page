@@ -1,0 +1,257 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+.logo a img {
+  position: absolute;
+  height: 40px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main,
+.login {
+  background-color: black;
+  color: white;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 50px;
+  border-radius: 4px;
+  margin: 20px;
+}
+.login,
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.top .from {
+  display: flex;
+}
+.from input {
+  height: 40px;
+  padding: 20px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.from button {
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #e50914;
+    color: white;
+    font-weight: 700;
+}
+.from a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.login .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.login .remember {
+    display: flex;
+    gap: 12px;
+}
+.remember label {
+    font-weight: 400;
+}
+.footer .text {
+    color: #8c8c8c8c;
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+.text .signup {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.text .lern-more {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+} */
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+     background-image: url(img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 150px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .login {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .top h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .from input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+   .from button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer; 
+  }
+  
+  .from button:hover {
+    background-color: #f40612;
+  }
+  
+  .from a {
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .footer .remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .footer .text p {
+    font-size: 14px;
+    margin-top: 25px;
+    color: gray;
+  }
+  
+  .footer .text a {
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .footer  a.learn-more {
+    color: blue;
+  /* }
+  .attribution {
+    text-align: center;
+  }
+  .attribution a {
+    color: blue;
+  } */
+  
+  @media (max-width: 768px) {
+    .main {
+      padding: 20px;
+    }
+  
+    .login {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .top h1 {
+      font-size: 20px;
+    }
+  
+    form input,
+    form button {
+      font-size: 14px;
+    }
+  
+    .footer .text p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      max-width: 100px;
+    }
+  
+    .login {
+      padding: 20px;
+    }
+  
+    form input,
+    form button {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .footer .text p {
+      font-size: 10px;
+    }
+  }
+  
